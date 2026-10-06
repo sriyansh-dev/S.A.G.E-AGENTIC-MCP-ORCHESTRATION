@@ -8,6 +8,10 @@
 `Python 3.11+` · `asyncio DAG` · `Model Context Protocol` · `Groq LLMs` · `Pydantic v2` · `Fish shell / Arch Linux`
 
 </div>
+In 2026, security analysts noted a massive 34% year-over-year increase in exposed credentials. This spike is directly tied to the adoption of autonomous coding tools that have broad file access and operate outside of traditional security perimeters. AI coding agents have even been caught inadvertently uploading thousands of internal images and billing records to public GitHub repositories just to show developers 'before-and-after' screenshots of their work.
+
+We want the power of AI, but we cannot afford the security risk of giving cloud agents our private keys.
+
 
 ---
 <img width="1920" height="1067" alt="image" src="https://github.com/user-attachments/assets/f3fac0fd-e951-4d36-8cb5-f909165a2831" />
