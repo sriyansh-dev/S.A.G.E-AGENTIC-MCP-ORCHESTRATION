@@ -1,7 +1,7 @@
 <div align="center">
 
 # S.A.G.E.
-### Secure Agentic Git Engine — *agentic MCP orchestration*
+### Secure Agentic Git Engine — *A Agentic-MCP orchestrator*
 
 **Point it at a GitHub repository and a vague goal. It clones, analyzes, reviews, patches, verifies, and opens a pull request — locally, with your secrets never leaving your machine.**
 
