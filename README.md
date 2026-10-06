@@ -10,6 +10,10 @@
 </div>
 
 ---
+<img width="1920" height="1067" alt="image" src="https://github.com/user-attachments/assets/f3fac0fd-e951-4d36-8cb5-f909165a2831" />
+
+
+---
 
 ## Table of contents
 1. [What is S.A.G.E.?](#1-what-is-sage)
