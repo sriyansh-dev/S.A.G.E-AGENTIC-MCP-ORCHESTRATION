@@ -1,14 +1,14 @@
 <div align="center">
 
 # S.A.G.E.
-### Secure Agentic Git Engine — *A Agentic-MCP orchestrator*
+### Secure Agentic Git Engine — *an agentic MCP orchestrator*
 
 **Point it at a GitHub repository and a vague goal. It clones, analyzes, reviews, patches, verifies, and opens a pull request — locally, with your secrets never leaving your machine.**
 
 `Python 3.11+` · `asyncio DAG` · `Model Context Protocol` · `Groq LLMs` · `Pydantic v2` · `Fish shell / Arch Linux`
 
 </div>
-In 2026, security analysts noted a massive 34% year-over-year increase in exposed credentials. This spike is directly tied to the adoption of autonomous coding tools that have broad file access and operate outside of traditional security perimeters. AI coding agents have even been caught inadvertently uploading thousands of internal images and billing records to public GitHub repositories just to show developers 'before-and-after' screenshots of their work.
+GitGuardian's [*State of Secrets Sprawl 2026*](https://blog.gitguardian.com/the-state-of-secrets-sprawl-2026/) report counted about 28.65 million new hardcoded secrets in public GitHub commits during 2025 — a 34% year-over-year increase — and found that commits co-authored by AI coding assistants leaked secrets at roughly twice the baseline rate. AI agents also need local credentials to do their work, which widens the attack surface.
 
 We want the power of AI, but we cannot afford the security risk of giving cloud agents our private keys.
 
@@ -201,7 +201,7 @@ Additional guards:
 ## 7. Installation (CachyOS / Arch + Fish)
 
 ```fish
-git clone <your-fork-of-this-repo> sage; and cd sage
+git clone https://github.com/sriyansh-dev/S.A.G.E-AGENTIC-MCP-ORCHESTRATOR.git sage; and cd sage
 fish bootstrap.fish
 ```
 
@@ -308,7 +308,7 @@ The suite covers the scanner, redaction, DAG ordering/parallelism/retries, atomi
 | `Cannot push without GitHub credentials` | `gh auth login --web -h github.com -p https`, or use `--dry-run` |
 | `no tests were found` / nothing patched | Expected on repos without tests and findings — you still get the review-only branch |
 | Credential dialog doesn't appear | Install `kdialog` (KDE) or `zenity`; otherwise it falls back to a hidden prompt on `/dev/tty` |
-| Groq rate limit (429) | Handled with backoff; lower `--runs` or use a smaller model |
+| Groq rate limit (429) | Short limits are retried with backoff; a long or daily limit switches to another model, and if none is left it stops with a clear message. Wait and rerun, or use another key |
 
 ## 15. Limitations
 
