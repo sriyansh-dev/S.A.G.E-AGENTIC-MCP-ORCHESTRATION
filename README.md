@@ -14,7 +14,7 @@ We want the power of AI, but we cannot afford the security risk of giving cloud 
 
 
 ---
-<img width="1920" height="1075" alt="image" src="https://github.com/user-attachments/assets/acff5da0-4bb7-41c4-8c34-64d8d4159681" />
+<img width="1881" height="953" alt="image" src="https://github.com/user-attachments/assets/a4325281-e835-40d7-9acb-a2c071304ef0" />
 
 
 ---
