@@ -1,0 +1,4 @@
+mcp>=1.10,<2
+pydantic>=2.7,<3
+httpx>=0.27,<1
+pytest>=8
